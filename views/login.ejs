@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Royalking Hotel & Resort HTML Template</title>
+<!-- Stylesheets -->
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet">
+<!-- Responsive File -->
+<link href="/css/responsive.css" rel="stylesheet">
+<!-- Color File -->
+<link href="/css/color.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper">
+
+    <div class="loader-wrap">
+        <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+        <div class="layer layer-one"><span class="overlay"></span></div>
+        <div class="layer layer-two"><span class="overlay"></span></div>        
+        <div class="layer layer-three"><span class="overlay"></span></div>        
+    </div>
+
+    <header class="main-header header-style-one">
+
+        <div class="header-upper">
+            <div class="auto-container">
+                <div class="inner-container d-flex align-items-center justify-content-between">
+                    <div class="logo-box">
+                        <div class="logo" style="width: 240px;"><a href="index.html"><img src="/images/logo.png" alt=""></a></div>
+                    </div>
+                    <div class="middle-column">
+                        <div class="nav-outer">
+                            <div class="mobile-nav-toggler"><img src="/images/icons/icon-bar-2.png" alt=""></div>
+                            
+                        </div>
+                    </div>
+                    <div class="right-column d-flex align-items-center"> 
+                      <div class="header-link-btn"><a href="/" class="btn-1 btn-small btn-alt">Back<span></span></a></div>
+<!--                         <div class="header-link-btn"><a href="javascript:void(0);" class="btn-1 btn-small btn-alt">Book Your Stay <span></span></a></div> -->
+                    </div>                      
+                </div>
+            </div>
+        </div>
+        <div class="sticky-header">
+            <div class="header-upper">
+                <div class="auto-container">
+                    <div class="inner-container d-flex align-items-center justify-content-between">
+                        <!--Logo-->
+                        <div class="logo-box">
+                            <div class="logo" style="width: 240px;"><a href="index.html"><img src="/images/logo.png" alt=""></a></div>
+                        </div>
+                        <div class="middle-column">
+                            <!--Nav Box-->
+                            <div class="nav-outer">
+                                <!--Mobile Navigation Toggler-->
+                                <div class="mobile-nav-toggler"><img src="/images/icons/icon-bar-2.png" alt=""></div>
+    
+                                <!-- Main Menu -->
+                                <nav class="main-menu navbar-expand-md navbar-light">
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="right-column d-flex align-items-center">                        
+                            <div class="header-link-btn"><a href="javascript:void(0);" class="btn-1 btn-small btn-alt">Book Your Stay <span></span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="fal fa-times"></span></div>
+            
+            
+        </div>
+
+        <div class="nav-overlay">
+            <div class="cursor"></div>
+            <div class="cursor-follower"></div>
+        </div>
+    </header>
+    <div class="page-title" style="background-image: url(/images/background/page-title.jpg);">
+        <div class="auto-container">
+            <h1>Login</h1>
+        </div>
+    </div>
+
+    <!-- comments -->
+    <section class="section-padding">
+        <div class="auto-container">
+            <div class="section_heading text-center">
+                <!-- <h2 class="section_heading_title_big mb_60">New Movie</h2> -->
+            </div>
+            <div class="row">
+              <center><p style="color: red; font-size: 30px">
+                <% if (message) { %><%= message %><% } %>
+                </p></center>
+                    <form class="form-events" action="/users/login" method="post">
+                        <div class="form-group">
+                            <fieldset>
+                                <!-- <label>Type:</label> -->
+                                <!-- <input type="text" class="form-control" name="search-input" value="" required > -->
+                                <!-- <input type="select" class="form-control" name="search-input" value="" required>
+                                    <option value="user">User</option>
+                                    <option value="manager">Manager</option>
+                                    </input> -->
+                                <label>Type:</label><br>
+                                <input type="radio" name="type" value="user" checked>
+                                <label for="user">User</label><br>
+                                <input type="radio" name="type" value="manager">
+                                <label for="manager">Manager</label><br>
+
+                                <label>ID:</label>
+                                <input type="text" class="form-control" name="name" value="" placeholder="User ID" required >
+                                <label>Password:</label>
+                                <input type="password" class="form-control" name="password" value="" placeholder="Password" required >
+                                <!-- <label>Picture URL:</label>
+                                <input type="text" class="form-control" name="search-input" value="" placeholder="Picture URL" required > -->
+                                <br>
+                                <center><button class="btn-1 btn-alt">Login<span></span></button></center>
+                            </fieldset>
+                        </div>
+                    </form>
+                </div>
+                <!-- comment item end -->
+            </div>
+        </div>
+    </section>
+
+<footer class="main-footer">
+        <div class="footer-1-middle">
+            <center><p>
+              Copyright by 2560 Super Stars
+              </p></center>
+        </div>
+        
+    </footer>
+	
+</div>
+
+<!--Scroll to top-->
+<div class="scroll-to-top">
+    <div>
+        <div class="scroll-top-inner">
+            <div class="scroll-bar">
+                <div class="bar-inner"></div>
+            </div>
+            <div class="scroll-bar-text">Go To Top</div>
+        </div>
+    </div>
+</div>
+<!-- Scroll to top end -->
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.nice-select.min.js"></script>
+<script src="/js/jquery.fancybox.js"></script>
+<script src="/js/isotope.js"></script>
+<script src="/js/appear.js"></script>
+<script src="/js/wow.js"></script>
+<script src="/js/TweenMax.min.js"></script>
+<script src="/js/swiper.min.js"></script>
+<script src="/js/jquery.ajaxchimp.min.js"></script>
+<script src="/js/parallax-scroll.js"></script>
+<script src="/js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="/js/booking-form.js"></script>
+<script src="/js/odometer.min.js"></script>
+<script src="/js/script.js"></script>
+
+
+</body>
+</html>

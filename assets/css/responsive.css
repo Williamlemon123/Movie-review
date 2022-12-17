@@ -1,0 +1,151 @@
+@media only screen and (max-width: 7000px){
+	.page-wrapper{
+		overflow: hidden;
+	}
+}
+@media only screen and (max-width: 1700px){
+
+}
+@media only screen and (max-width: 1400px){
+	.main-menu .navigation>li:nth-last-child(-n+3)>ul>li>ul {
+	    left: auto;
+	    right: 100%;
+	}
+	.main-menu .navigation > li:nth-last-child(-n+2) > ul {
+	    left: auto;
+	    right: 0;
+	}
+	.main-menu .navigation > li:nth-last-child(-n+2) > ul > li > ul {
+	    left: auto;
+	    right: 100%;
+	}
+}
+@media only screen and (max-width: 1200px){
+	/* Default */
+	.main-header .nav-outer .main-menu,
+	.sticky-header{
+		display: none !important;
+	}
+	.nav-outer .mobile-nav-toggler {
+		display: block;
+	}
+	.banner-section .banner-slider-nav {
+		display: none;
+	}
+	.feature-2-offer {
+		top: -80px;
+	}
+	.section_heading {
+		position: relative;
+		z-index: 1;
+	}	
+	.room-2-left-column {
+		width: 100%;
+	}	
+	.room-2-container {
+		max-width: 100%;
+	}	
+	.room-2-right-column {
+		width: 100%;
+	}	
+	.room-2-container2 {
+		max-width: 100%;
+	}
+}
+@media only screen and (max-width: 991px){
+	.auto-container {
+		max-width: 700px;
+	}
+	.page-title h1 {
+		font-size: 50px;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+	.slider-nav-style-1,
+	.main-header .header-upper .right-column {
+		display: none !important;
+	}
+	form.hotel-booking-form-1-form {
+		flex-wrap: wrap;
+	}
+	.hotel-booking-form-1.alt form.hotel-booking-form-1-form .form-group,
+	.hotel-booking-form-1.alt2 form.hotel-booking-form-1-form .form-group {
+		flex: auto;
+	}
+	.hotel-booking-form-1.alt form.hotel-booking-form-1-form .form-group:before,
+	.funfact-1-block:before {
+		display: none;
+	}
+	.form-alt {
+		margin-left: 0;
+	}
+}
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}
+@media only screen and (max-width: 767px){	
+	.auto-container {
+		max-width: 575px;
+	}
+	.header-style-one .right-column,
+	br {
+		display: none;
+	}
+	.about-2-video-title br,
+	.feature-3-offer br,
+	.feature-2-offer br {
+		display: block;
+	}
+}
+@media only screen and (max-width: 575px){
+	.d-flex {
+		flex-wrap: wrap;
+	}
+	.form-alt {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.project-1-image {
+		margin: 0;
+	}
+	.project-1-wrapper .swiper-container {
+		overflow: hidden;
+	}
+	.feature-1-block {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.hotel-booking-form-1 form.hotel-booking-form-1-form .form-group {
+		width: 100%;
+	}
+	.hotel-booking-form-1.alt .nice-select,
+	.hotel-booking-form-1.alt2 .nice-select,
+	.hotel-booking-form-1 .nice-select {
+		max-width: 100%;
+	}
+	
+}
+@media only screen and (max-width: 400px){
+	.main-header .header-upper .logo-box .logo {
+		width: 180px !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
