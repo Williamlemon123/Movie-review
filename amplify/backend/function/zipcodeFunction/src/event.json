@@ -1,0 +1,9 @@
+{
+  "httpMethod": "POST",
+  "path": "/zipcode",
+  "body": "{\"latLong\": \"33.79340726062406, -84.38471328185885\"}",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "resource": "/{proxy+}"
+}

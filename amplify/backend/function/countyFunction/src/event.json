@@ -1,0 +1,10 @@
+{
+  "httpMethod": "POST",
+  "path": "/county",
+  "body": "{\"ZIP\": \"10001\"}",
+  "queryStringParameters": {},
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "resource": "/{proxy+}"
+}

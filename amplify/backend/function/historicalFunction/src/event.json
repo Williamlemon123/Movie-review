@@ -1,0 +1,12 @@
+{
+  "httpMethod": "POST",
+  "path": "/historical",
+  "body": {},
+  "queryStringParameters": {
+    "ZIP": "90210"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "resource": "/{proxy+}"
+}

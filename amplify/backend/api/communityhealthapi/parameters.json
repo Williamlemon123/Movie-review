@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "communityhealthapi",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}

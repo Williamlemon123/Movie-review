@@ -1,0 +1,44 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-communityhealthapi-dev-102138-authRole",
+      "UnauthRoleArn": "arn:aws:iam::420666475482:role/amplify-communityhealthapi-dev-102138-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::420666475482:role/amplify-communityhealthapi-dev-102138-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-communityhealthapi-dev-102138-deployment",
+      "UnauthRoleName": "amplify-communityhealthapi-dev-102138-unauthRole",
+      "StackName": "amplify-communityhealthapi-dev-102138",
+      "StackId": "arn:aws:cloudformation:us-east-1:420666475482:stack/amplify-communityhealthapi-dev-102138/47c299a0-fec9-11ec-a410-0e636334a00f",
+      "AmplifyAppId": "d1pxvxr3n87ysm"
+    },
+    "categories": {
+      "function": {
+        "historicalFunction": {
+          "deploymentBucketName": "amplify-communityhealthapi-dev-102138-deployment",
+          "s3Key": "amplify-builds/historicalFunction-7761787a346452696a35-build.zip"
+        },
+        "zipcodeFunction": {
+          "deploymentBucketName": "amplify-communityhealthapi-dev-102138-deployment",
+          "s3Key": "amplify-builds/zipcodeFunction-454f336e5835522b3565-build.zip"
+        },
+        "countyFunction": {
+          "deploymentBucketName": "amplify-communityhealthapi-dev-102138-deployment",
+          "s3Key": "amplify-builds/countyFunction-333544716e48624a6431-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1pxvxr3n87ysm",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "communityhealthapi9b25fc39": {}
+      },
+      "api": {
+        "civAPI": {},
+        "communityhealthapi": {}
+      }
+    }
+  }
+}

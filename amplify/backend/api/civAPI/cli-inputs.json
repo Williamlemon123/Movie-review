@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "paths": {
+    "/county": {
+      "name": "/county",
+      "lambdaFunction": "countyFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/zipcode": {
+      "name": "/zipcode",
+      "lambdaFunction": "zipcodeFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/historical": {
+      "name": "/historical",
+      "lambdaFunction": "historicalFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
